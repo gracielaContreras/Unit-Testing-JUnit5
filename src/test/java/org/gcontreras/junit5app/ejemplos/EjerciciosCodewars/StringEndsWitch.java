@@ -1,5 +1,6 @@
-package org.gcontreras.junit5app.ejemplos.models;
+package org.gcontreras.junit5app.ejemplos.EjerciciosCodewars;
 
+import org.gcontreras.junit5app.ejemplos.EjerciciosCodewars.StringEndsWith;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
