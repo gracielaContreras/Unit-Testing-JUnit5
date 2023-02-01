@@ -1,5 +1,10 @@
 package org.gcontreras.junit5app.ejemplos.models;
 
+import lombok.Getter;
+import lombok.ToString;
+
+@Getter
+@ToString
 public class Student {
 
     private int gpa;
@@ -10,27 +15,6 @@ public class Student {
         this.gpa = gpa;
         this.age = age;
         this.fullName = fullName;
-    }
-
-    public int getGpa() {
-        return gpa;
-    }
-
-    public int getAge() {
-        return age;
-    }
-
-    public String getFullName() {
-        return fullName;
-    }
-
-    @Override
-    public String toString() {
-        return "Student{" +
-                "gpa=" + gpa +
-                ", age=" + age +
-                ", fullName='" + fullName + '\'' +
-                '}';
     }
 }
 
